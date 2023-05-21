@@ -6,7 +6,7 @@ from flask_cors import CORS
 import numpy as np
 
 app = Flask(__name__)
-server = app.server
+
 
 CORS(app)
 
